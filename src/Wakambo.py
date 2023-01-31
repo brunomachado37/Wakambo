@@ -3,7 +3,7 @@ import cv2
 
 class Wakambo:
 
-    def __init__(self, numberOfEmotions = 1) -> None:
+    def __init__(self, numberOfEmotions: int = 1) -> None:
 
         self.detector = FER()
         self.numberOfEmotions = numberOfEmotions
